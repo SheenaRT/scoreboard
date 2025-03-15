@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    background-color: #1B244A
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.home, .guest {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: #EEEEEE;   
+}
+
+#home-score, #guest-score {
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+width: 155px;
+  height: 120px;
+  border: 1px solid #080001;
+  border-radius: 5px;
+  background-color: black;
+  color: #F94F6D;
+  font-family: 'Cursed Timer ULiL', sans-serif;
+  font-size: 90px;
+}
+
+.home-boxes, .guest-boxes {
+    display: flex;         /* This makes the parent containers flex containers */
+    justify-content: space-around; /* Ensures horizontal alignment with space in between */
+    width: 100%;   
+    padding-top: 20px;        /* Ensures it takes up the full width of the parent */
+}
+
+.home-box, .guest-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;           /* Width of the individual boxes */
+    height: 40px;          /* Height of the individual boxes */
+    border: 1px solid #000;
+    border-radius: 5px; /* Border for the boxes */
+    margin: 5px;           /* Spacing between the boxes */
+    border-color: #9AABD8;
+    background-color: #1B244A;
+    font-size: 20px;
+    color: #9AABD8;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    }
