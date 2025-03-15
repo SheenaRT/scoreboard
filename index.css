@@ -9,14 +9,14 @@ body {
     text-align: center;
 }
 
-.home, .guest {
+.home, .away {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     font-size: 40px;
     color: #EEEEEE;   
 }
 
-#home-score, #guest-score {
+#home-score, #away-score {
     display: flex ;
     justify-content: center;
     align-items: center;
@@ -30,14 +30,14 @@ width: 155px;
   font-size: 90px;
 }
 
-.home-boxes, .guest-boxes {
+.home-boxes, .away-boxes {
     display: flex;         /* This makes the parent containers flex containers */
     justify-content: space-around; /* Ensures horizontal alignment with space in between */
     width: 100%;   
     padding-top: 20px;        /* Ensures it takes up the full width of the parent */
 }
 
-.home-box, .guest-box {
+.home-box, .away-box {
     display: flex;
     justify-content: center;
     align-items: center;
